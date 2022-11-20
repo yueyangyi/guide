@@ -1,0 +1,64 @@
+baseURL: /
+theme: hugo-serif-theme
+languageCode: en-us
+title: Hugo Serif Theme
+module:
+  hugoVersion:
+    extended: yes
+    min: 0.55.0
+params:
+  colors:
+    black: '#2f2f41'
+    grey: '#5C5A5A'
+    primary: '#f24088'
+    white: '#ffffff'
+    white_offset: '#f6f7ff'
+  fonts:
+    base: Source Sans Pro
+    google_fonts: https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Source+Sans+Pro:wght@400;700&display=swap
+    heading: Playfair Display
+  footer:
+    copyright_text: Free Hugo theme by <a class="zerostatic" href="https://www.zerostatic.io">www.zerostatic.io</a>
+  google_analytics_id: ''
+  google_tag_manager_id: ''
+  homepage:
+    show_contact_box: yes
+    show_services_button: no
+  logo:
+    alt: Serif - A Hugo Business Theme
+    desktop: images/logo/logo.svg
+    desktop_height: 36px
+    mobile: images/logo/logo-mobile.svg
+    mobile_height: 36px
+  seo:
+    meta_og_image: https://www.zerostatic.io/theme/hugo-serif/hugo-serif-screenshot.png
+    meta_twitter_creator: '@zerostaticio'
+    meta_twitter_site: '@zerostaticio'
+  services:
+    summary_truncate: 120
+  team:
+    summary_large_truncate: 120
+menu:
+  footer:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Contact
+      url: /contact/
+      weight: 2
+  main:
+    - name: Services
+      url: /services/
+      weight: 1
+    - name: Team
+      url: /team/
+      weight: 2
+    - name: About
+      url: /about/
+      weight: 3
+    - name: Contact
+      url: /contact/
+      weight: 4
+    - name: Example
+      url: /example/
+      weight: 5
